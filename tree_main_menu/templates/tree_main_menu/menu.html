@@ -1,0 +1,5 @@
+{% for elem in main_menu %}
+    <li>
+        <a href="{% url elem.url %}">{{ elem.text_menu }}</a>
+    </li>
+{% endfor %}
